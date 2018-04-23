@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        lv = findViewById(R.id.foodList);
+        lv = findViewById(R.id.foodLv);
 
         food = new ArrayList<Food>();
         food.add(new Food("Ah Lat Coffee", false));
